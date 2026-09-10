@@ -95,9 +95,7 @@ forecast = predict_7_day(history)
 print(f"7-day forecast: {forecast:.2f} kg")
 ```
 
-## Why BeeObserver is not merged into this model
-
-BeeObserver provides real hive IoT measurements such as hive weight, temperature and humidity, but it has no directly paired quantitative honey-yield target and no defensible shared HiveID/timestamp with the synthetic Honey Production datasets. It therefore belongs in the **future real-world feature pipeline**, not as a fabricated join in the current model.
+.
 
 The production Honey Chain pipeline should eventually use:
 
